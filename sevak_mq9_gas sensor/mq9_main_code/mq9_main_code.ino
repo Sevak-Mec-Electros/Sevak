@@ -29,7 +29,10 @@ RS_gas = (5.0 - sensor_volt) / sensor_volt; // Depend on RL on yor module
  alarm = digitalRead(DO);
   Serial.print("alarm="); 
   Serial.println(alarm);  
- if (ratio>9.92) digitalWrite(LED, HIGH); 
+ double ppm = 3.027*exp(1.0698*(sensorValue*3.3/4095));
+ Serial.print("CO concentration in ppm=");
+ Serial.println(ppm);
+ if (ppm>thresh) digitalWrite(LED, HIGH); 
  else  digitalWrite(LED, LOW); 
  delay(1000); 
 }
