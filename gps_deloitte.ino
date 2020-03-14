@@ -2,9 +2,9 @@
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
 
-#define TOKEN  "BBFF-Q6dsWbWpIEYHL1X5dHw12gYcXZrXxK"  // Put here your Ubidots TOKEN
-#define WIFISSID "Airtel_Zerotouch" // Put here your Wi-Fi SSID
-#define PASSWORD "12345678" // Put here your Wi-Fi password
+#define TOKEN  ""  // Put here your Ubidots TOKEN
+#define WIFISSID "" // Put here your Wi-Fi SSID
+#define PASSWORD "" // Put here your Wi-Fi password
 
 Ubidots client(TOKEN);
 
