@@ -5,9 +5,9 @@ int buttonState=0;
 #include <Ubidots.h>
 
 //ubidots
-const char* UBIDOTS_TOKEN = "BBFF-ulorWFzSc6vDk9e8mV2uhUnDkG0gow";  // Put here your Ubidots TOKEN
-const char* WIFI_SSID = "AKOO"; // Put here your Wi-Fi SSID
-const char* WIFI_PASS = "akshaya123"; // Put here your Wi-Fi password
+const char* UBIDOTS_TOKEN = "";  // Put here your Ubidots TOKEN
+const char* WIFI_SSID = ""; // Put here your Wi-Fi SSID
+const char* WIFI_PASS = ""; // Put here your Wi-Fi password
 char const * HTTPSERVER = "things.ubidots.com";
 
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
