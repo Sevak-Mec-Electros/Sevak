@@ -1,0 +1,16 @@
+Organization ID
+3vrxae
+Device Type
+esp8266
+Device ID
+dev02
+Authentication Method
+use-token-auth
+Authentication Token
+ElectrosSevak
+API KEY
+a-3vrxae-r1qwbxmtfb
+Authentication Token
+Ng&sD2hBhO?0fG-b3t
+
+
