@@ -57,16 +57,16 @@ void mpu_read(){
 
 
 // Add WiFi connection information
-char ssid[] = "AKOO";  // your network SSID (name)
-char pass[] = "akshaya123";  // your network password
+char ssid[] = "";  // your network SSID (name)
+char pass[] = "";  // your network password
 
 // Watson IoT connection details
 
-#define MQTT_HOST "3vrxae.messaging.internetofthings.ibmcloud.com"//"orgid.messaging....
+#define MQTT_HOST "org_id.messaging.internetofthings.ibmcloud.com"//"orgid.messaging....
 #define MQTT_PORT 1883
-#define MQTT_DEVICEID "d:3vrxae:esp8266:dev02"//orgid-devicetype-deviceid
+#define MQTT_DEVICEID "d:org_id:device_type:device_id"//orgid-devicetype-deviceid
 #define MQTT_USER "use-token-auth"
-#define MQTT_TOKEN "ElectrosSevak"//authentication token
+#define MQTT_TOKEN "token"//authentication token
 #define MQTT_TOPIC "iot-2/evt/status/fmt/json"
 #define MQTT_TOPIC_DISPLAY "iot-2/cmd/display/fmt/json"
 
