@@ -7,7 +7,7 @@ var password = document.getElementById("password").value;
 if ( username == "a" && password == "a")
 {
 alert ("Login successfully");
-location.href="https://node-red-deloitte.eu-gb.mybluemix.net/ui/#!/2?socketid=FZ1hivZlDaVND9AhAAAG"; // Redirecting to other page.
+location.href="https://node-red-kkhis.eu-gb.mybluemix.net/ui/"; // Redirecting to other page.
 return false;
 }
 else{
