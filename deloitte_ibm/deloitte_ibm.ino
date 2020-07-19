@@ -15,8 +15,8 @@
 #define MQTT_TOPIC_DISPLAY "iot-2/cmd/display/fmt/json"
 
 // Add WiFi connection information
-char ssid[] = "anjana";     //  your network SSID (name)
-char pass[] = "12345678";  // your network password
+char ssid[] = "";     //  your network SSID (name)
+char pass[] = "";  // your network password
 
 
 // Add GPIO pins used to connect devices
@@ -137,5 +137,3 @@ void loop() {
     mqtt.loop();
     delay(1000);
   }*/
-
-
