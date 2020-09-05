@@ -10,6 +10,12 @@ alert ("Login successfully");
 location.href="https://node-red-deloitte.eu-gb.mybluemix.net/ui/"; // Redirecting to other page.
 return false;
 }
+else if (username == "admin" && password == "admin")
+{
+alert ("Login successfully");
+location.href="https://node-red-tmran.eu-gb.mybluemix.net/ui/"; // Redirecting to other page.
+return false;
+}
 else{
 attempt --;// Decrementing by one.
 alert("You have left "+attempt+" attempt;");
